@@ -1,0 +1,30 @@
+Maven
+
+What is it?
+
+    - It helps programmer manage their projects and all the things they need to build their programs
+
+How to run
+
+    - ./mvnw clean compile  (command)
+
+Maven commands
+
+    - mvnw [options] [<goals(s)>] [<phase(s)>]
+
+    - Maven has three phases: clean, default, site
+    - A phase can have one or more goals
+    - clean: remove temporary directories and files.
+    - default: where the most useful goals live
+    - site: where documentation is generated
+
+    defualt Phase
+        - compile: compiles your code into bytecode
+        - test: runs unit test
+        - package: creates a jar or war file
+        - verify: runs checks & test
+
+Maven workflow(not tdd)
+    -could use './mvnw clean test' to test
+    -or compile to test the build
+    -or you could package and run the jar file(will be like production
